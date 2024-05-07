@@ -16,9 +16,10 @@ console.log("Tests with 'and' and 'or':");
 console.log(true && false); // False
 console.log(true, false); // True
 // Test whether an item is in a array
-var basket = ["orange", "apple", "banana", "graps"];
+let basket = ["orange", "apple", "banana", "graps"];
 console.log("Is 'orange' in basket?");
 console.log(basket.includes("orange")); // True
 console.log("Is 'mango' not in basket?");
 console.log(!basket.includes("mango")); // True
+export {};
 // Test whether an item is not in a array
